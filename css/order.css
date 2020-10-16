@@ -1,0 +1,110 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.rightBtn {
+	background-color: #E36414;
+	border: 2px solid black;
+	color: black;
+	padding: 5px 5px;
+	margin: 8px 0;
+	cursor: pointer;
+	width: 75%;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: left;
+  margin: 24px 24px;
+  margin-left:20px;
+}
+
+img.avatar {
+	max-width: 137px;
+	border-radius: 50%;
+}
+
+.container {
+  padding: 24px;
+}
+
+span.psw {
+  padding-top: 16px;
+  text-align: center;  
+}
+
+.btn-group button {
+  background-color: #ebde34; /* Green background */
+  border: 1px solid black; /* Green border */
+  color: black; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/*table*/
+.container {
+  padding: 2rem 0rem;
+}
+
+.table-image {
+  td, th {
+    vertical-align: middle;
+  }
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #dec807;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+/* BreadCrumb Styles */
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+}
+

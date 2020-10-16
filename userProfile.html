@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<link rel="stylesheet" href="css/styleFooter.css"/>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	
+<style>
+body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      form {
+        border: 3px solid #f1f1f1;
+      }
+
+      .inputType {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+
+      .profileSection {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .proImage {
+        width: calc(100% / 2);
+      }
+
+      .btnGroup {
+        margin: 0px 24px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .btnRow {
+        background-color: #E36414;
+        border: 2px solid black;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        cursor: pointer;
+        width: 30%;
+        text-decoration: none;
+        text-align: center;
+      }
+
+      body {
+        font-size: 85%;
+        /* whatever base font size I want */
+      }
+
+      input,
+      button,
+      select,
+      option,
+      textarea {
+        font-size: 100%;
+      }
+
+      button:hover {
+        opacity: 0.8;
+      }
+
+      .rightBtn {
+        background-color: #E36414;
+        border: 2px solid black;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #f44336;
+      }
+
+      .imgcontainer {
+        text-align: left;
+        margin: 24px 24px;
+        margin-left: 20px;
+      }
+
+      img.avatar {
+        max-width: 137px;
+        border-radius: 50%;
+      }
+
+      .container {
+        padding: 24px;
+      }
+
+      .login {
+        text-align: right;
+        padding: 12px;
+      }
+
+      span.psw {
+        padding-top: 16px;
+        text-align: center;
+      }
+
+      .framP {
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-top: 50px;
+        background-color: #44b3c9;
+      }
+
+      .btn-group button {
+        background-color: #E36414;
+        /* Green background */
+        border: 1px solid black;
+        /* Green border */
+        color: white;
+        /* White text */
+        padding: 10px 24px;
+        /* Some padding */
+        cursor: pointer;
+        /* Pointer/hand icon */
+      }
+
+      /* Clear floats (clearfix hack) */
+      .btn-group:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .notification {
+        background-color: #555;
+        color: white;
+        text-decoration: none;
+        padding: 15px 40px;
+        position: relative;
+        border-radius: 8px;
+        float: right;
+      }
+
+      .notification:hover {
+        background: red;
+      }
+
+      .notification .badge {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        padding: 5px 10px;
+        border-radius: 50%;
+        background-color: red;
+        color: white;
+      }
+
+      /* Add a background color on hover */
+      .btn-group button:hover {
+        background-color: #E36414;
+      }
+
+      /* Change styles for span and cancel button on extra small screens */
+      @media screen and (max-width: 300px) {
+        span.psw {
+          display: block;
+          float: none;
+        }
+
+        .cancelbtn {
+          width: 100%;
+        }
+
+        /* BreadCrumb Styles */
+        ul.breadc {
+          padding: 10px 16px;
+          list-style: none;
+          background-color: #eee;
+        }
+
+        ul.breadc li {
+          display: inline;
+          font-size: 18px;
+        }
+
+        ul.breadc li + li:before {
+          padding: 8px;
+          color: black;
+          content: "/\00a0";
+        }
+
+        ul.breadc li a {
+          color: #0275d8;
+          text-decoration: none;
+        }
+
+        ul.breadc li a:hover {
+          color: #01447e;
+          text-decoration: underline;
+        }
+      }
+
+</style>
+	
+
+    <!-- Title -->
+    <title>arngren.net: Online Shopping for Books, Electronics, Fashion & more</title>
+
+    <!-- Boostrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Fonts Open Sans & Raleway-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+
+    <!-- Fontawsome -->
+    <script src="https://kit.fontawesome.com/9aa55b9b3f.js"></script>
+
+    <!-- Owl carousel css -->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+    <script src="https://www.vantajs.com/dist/vanta.clouds.min.js"></script>
+    <script src="three.r92.min.js"></script>
+    <script src="vanta.clouds.min.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container-1">
+
+            <!-- Logo Container-->
+            <div class="box-1">
+                <div class="logo">
+                    <a href="index2.html"><img src="image/logo3.png" alt=""></a>
+                </div>
+            </div>
+            <!-- Search bar container -->
+            <div class="box-2">
+                <div class="wrap">
+                    <div class="search_">
+                        <div class="dropdown">
+                            <button class="dropdown_Button">All</button>
+                            <div class="search_dropdown_content">
+                                <a href="books.html">Books</a>
+                                <a href="#">Electronics</a>
+                                <a href="#">Fun and Sports</a>
+                                <a href="#">Home and Kitchen</a>
+                                <a href="#">Men's Fashion</a>
+                                <a href="#">Software</a>
+                                <a href="#">Toys</a>
+                                <a href="#">Womenn's Fashion</a>
+                            </div>
+                        </div>
+                        <input type="text" name="#" id="searchTerm" placeholder="Search...">
+                        <button type="submit" class="searchButton"><i class="fas fa-search"></i></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Login container -->
+            <div class="box-3">
+                <div class="nested_2">
+                    <div>
+                        <p style="color:white">Welcome to Arngen!</p>
+                    </div>
+                    <div class="box-2">
+                      <div class="wrap">
+                              <div class="dropdown">
+                                  <img alt="Qries" src="image/aadi/ah.png" width="50" height="50">
+                                  <div class="search_dropdown_content">
+                                      <a href="userProfile.html">My Profile</a>
+                                      <a href="myOrders.html">My Orders</a>
+                                      <a href="index.html">LogOut</a>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+                    <div class="box box1">
+                        <a href="Cart.html" class="cart_button"><i class="fas fa-cart-arrow-down fa-2x"></i></a>
+                    </div>
+                    <div class="box box1">
+                        <a href="#" class="cart_button"><i class="fas fa-bell fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+	
+	<!--user profile page-->
+		
+		<div class="imgcontainer">
+        <h2 style="text-align: left">James Bond</h2>
+        <div class="profileSection">
+          <div class="proImage">
+            <img src="image/aadi/ah.png" alt="Avatar" class="avatar" />
+          </div>
+
+          <div class="btnSet">
+            <a href="#" class="notification">
+              <span>Messages</span>
+              <span class="badge">3</span>
+            </a>
+            <button class="rightBtn" onclick="window.location.href='myOrders.html'">My Orders</button>
+            <button class="rightBtn" onclick="window.location.href='OrderTracking.html'">Track My Order</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="btn-group btnGroup" style="display:flex">
+        <button class="btnRow">Awaiting Payments</button>
+        <button class="btnRow">Awaiting Shipment</button>
+        <button class="btnRow">Awaiting Delivery</button>
+        <button class="btnRow" onclick="window.location.href ='disputes.html';">Disputes</button>
+      </div>
+
+      <div class="container">
+        <input
+          class="inputType"
+          type="text"
+          placeholder="James Bond"
+          name="uname"
+          style="border: 3px solid black"
+          required
+          disabled
+        />
+
+        <input
+          class="inputType"
+          type="text"
+          placeholder="jamesbanda@gmail.com"
+          name="psw"
+          style="border: 3px solid black"
+          required
+          disabled
+        />
+
+        <input
+          class="inputType"
+          type="text"
+          placeholder="221B,BakerStreet,Marylebone,London NW1 6XE,UK"
+          name="psw"
+          style="border: 3px solid black"
+          required
+          disabled
+        />
+
+        <input
+          class="inputType"
+          type="password"
+          placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;"
+          name="psw"
+          style="border: 3px solid black"
+          required
+          disabled
+        />
+
+        <div class="login">
+          <span class="psw"><a href="#">Edit Details</a></span>
+        </div>
+      </div>
+
+	<!--End user profile page-->
+
+    <!-- Footer -->
+    <footer class="footer-distributed">
+
+			<div class="footer-left">
+				<h3>ARNGREN<span>Online Shopping</span></h3>
+
+				<p class="footer-links">
+					<a href="index2.html" class="link-1">Home</a>								
+					<a href="aboutUs.html">About Us</a>
+					<a href="contactUs.html">Contact Us</a>					
+				</p>
+				<p class="footer-company-name">arngren©1983</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Arngren Sky Commuter AS,</span>0378 Oslo,<br></span>Norway,</span>Sondreveien 3K,</p>
+				</div>
+				<br>
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+ 47-22149166<br>+ 47-92060873</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com"><strong>frithjof@arngren.net</strong></a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About our company</span>
+					Arngren Electronics is a company that sells electronics, gadgets and post office mail items.The company was started in 1983 by Frithjof Arngren.
+					In 1994 they started with mail order sales, and were a pioneer in the field.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+    <!-- End footer -->
+    <!-- Vantajs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+    <script src="https://www.vantajs.com/dist/vanta.clouds.min.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,252 @@
+#thk{
+	background-color:#6099dd ;
+	font-family: 'Times New Roman', Times, serif
+}
+
+.footer-background {
+    background-color: rgb(204, 199, 199)
+}
+
+@media(max-width:991px) {
+    #heading {
+        padding-left: 20px
+    }
+
+    #prc {
+        margin-left: 70px;
+        padding-left: 110px
+    }
+
+    #quantity {
+        padding-left: 20px
+    }
+
+    #produc {
+        padding-left: 40px
+    }
+
+    #total {
+        padding-left: 54px;
+        font-size: 10%
+    }
+}
+
+@media(max-width:767px) {
+    .mobile {
+        font-size: 10px
+    }
+
+    h5 {
+        font-size: 14px
+    }
+
+    h6 {
+        font-size: 9px
+    }
+
+    #mobile-font {
+        font-size: 11px
+    }
+
+    #prc {
+        font-weight: 700;
+        margin-left: -45px;
+        padding-left: 105px
+    }
+
+    #quantity {
+        font-weight: 700;
+        padding-left: 6px
+    }
+
+    #produc {
+        font-weight: 700;
+        padding-left: px
+    }
+
+    #total {
+        font-weight: 700;
+        padding-left: 9px
+    }
+
+    #image {
+        width: 60px;
+        height: 60px
+    }
+
+    .col {
+        width: 100%
+    }
+
+    #zero-pad {
+        padding: 2%;
+        margin-left: 10px
+    }
+
+    #footer-font {
+        font-size: 12px
+    }
+
+    #heading {
+        padding-top: 15px
+    }
+}
+
+#thm{
+	background-color: #d3d3bb;
+	/* height: 100vh;
+    vertical-align: middle;
+    display: flex;
+	font-family: 'Times New Roman', Times, serif;;
+    letter-spacing: 3px */
+}
+.card {
+    border-radius: unset;
+    margin: auto;
+    max-width: 800px;
+    padding: 15vh 23vh 1vh;
+    align-items: center;
+    box-shadow: 0 6px 20px 0;
+    margin-bottom: 10%
+}
+
+@media(max-width:768px) {
+    .card {
+        padding: 2vh;
+        width: 90%
+    }
+}
+
+@media(width:1024px) {
+    .card {
+        padding: 5vh;
+        width: 90%
+    }
+}
+#heading {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: bolder
+}
+
+@media(max-width:767px) {
+    #heading h1 {
+        font-size: 1.5rem
+    }
+}
+
+@media(max-width:320px) {
+    #heading h1 {
+        font-size: 1.3rem
+    }
+}
+#sub-heading {
+    font-size: 2vh;
+    letter-spacing: 3px;
+    font-weight: 500
+}
+
+#left {
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 2.5vh
+}
+
+.progress_b .col-2 {
+    text-align: right;
+    width: fit-content;
+    padding: 0;
+    margin: 0
+}
+
+#right {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 2.5vh
+}
+
+.progress {
+    height: 20px;
+    border-radius: 4px;
+    overflow: visible;
+    margin: 4vh 0
+}
+
+.progress-bar {
+    width: 90%;
+	height: 220%;
+    overflow: visible
+}
+
+.progress_b {
+    margin: 14vh 0 9vh
+}
+
+@media(max-width:768px) {
+    .progress_b {
+        margin: 10vh 0 7vh
+    }
+}
+
+#footer {
+    color: rgb(233, 9, 84);
+    font-size: 3vh;
+    margin-top: 8vh;
+    font-weight: 600
+}
+
+img {
+    height: 5vh;
+    margin-left: auto;
+    margin-bottom: 3.4vh
+}
+
+table {
+    margin-left:-10%; 
+    margin-right:-10%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 120%;
+    height: 120%;
+    background-color:  #d6d6c2;
+    box-shadow: 0 6px 20px 0;
+    border-radius: 5px;
+  }
+  
+  td, th {
+    border: 1px solid #b3b3a3;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+  }
+   
+  h1 { 
+    text-align: center;
+    color: black;
+    }
+
+    .card-1 {
+        border-radius: unset;
+        margin: auto;
+        max-width: 1300px;
+        padding: 15vh 23vh 1vh;
+        align-items: center;
+        box-shadow: 0 6px 20px 0;
+        margin-bottom: 10%;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+    }
+
+    #pbtn{
+        background-color: #f7a309;
+        border: #f7a309;
+    }
+    #PAddress{
+        border-radius: 5px;
+    }
+    #thfont{
+        font-size: 25px;
+        color: black;
+    }

@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/styleFooter.css" />
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/af562a2a63.js" crossorigin="anonymous"></script>
+
+
+	<style>
+h1 {color: black; text-align: center; font-size: 45px;line-height:5px;}
+
+.jssorl-004-double-tail-spin img {
+    animation-name: jssorl-004-double-tail-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-004-double-tail-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.jssorb031 {position:absolute;}
+    .jssorb031 .i {position:absolute;cursor:pointer;}
+    .jssorb031 .i .b {fill:#000;fill-opacity:0.6;stroke:#fff;stroke-width:1600;stroke-miterlimit:10;stroke-opacity:0.8;}
+    .jssorb031 .i:hover .b {fill:#fff;fill-opacity:1;stroke:#000;stroke-opacity:1;}
+    .jssorb031 .iav .b {fill:#fff;stroke:#000;stroke-width:1600;fill-opacity:.6;}
+    .jssorb031 .i.idn {opacity:.3;}
+
+    .jssora051 {display:block;position:absolute;cursor:pointer;}
+    .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+    .jssora051:hover {opacity:.8;}
+    .jssora051.jssora051dn {opacity:.5;}
+    .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+	
+.img-container{
+  padding-left:28px; 
+}
+
+div.gallery {
+  margin: 10px;
+  border: 1px solid #ccc;
+  display:inline-block;
+  width: 220px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  opacity:0.7;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100px;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+  font-size:15px;
+  cursor:pointer;
+
+}
+
+</style>
+
+    <!-- Title -->
+    <title>arngren.net: Online Shopping for Books, Electronics, Fashion & more</title>
+
+    <!-- Boostrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Fonts Open Sans & Raleway-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+
+    <!-- Fontawsome -->
+    <script src="https://kit.fontawesome.com/9aa55b9b3f.js"></script>
+
+    <!-- Owl carousel css -->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Purchasing.css">
+    <script>
+        function formValidationA()
+        {
+            var Paddress = document.forms["PForm"]["PAddress"];
+            var Saddress = document.forms["PForm"]["SAddress"];
+            
+            if (Paddress.value == "")
+            {
+                window.alert("Please Enter the Primary address.");
+                Paddress.focus();
+                return fales;
+            }
+            
+            if (Saddress.value == "")
+            {
+                window.alert("Please Enter the Secondary address.");
+                Saddress.focus();
+                return fales;
+            }
+            
+            return true;
+        }
+        
+        function formValidationB()
+        {
+            var cardDetails = document.forms["SForm"]["Card"];
+            
+            if (cardDetails.value == "")
+            {
+                window.alert("Please Enter the Card Details.");
+                cardDetails.focus();
+                return fales;
+            }
+            
+            return true;
+        }
+    
+    </script>
+</head>
+
+<body id="thm">
+    <!--Preloader-->
+    <div id="preloader">
+        <div id="status">
+            &nbsp;
+        </div>
+    </div>
+    <!-- End preloader -->
+
+    <!-- Header -->
+    <header>
+        <div class="container-1">
+
+            <!-- Logo Container-->
+            <div class="box-1">
+                <div class="logo">
+                    <a href="index.html"><img src="image/logo3.png" alt=""></a>
+                </div>
+            </div>
+            <!-- Search bar container -->
+            <div class="box-2">
+                <div class="wrap">
+                    <div class="search_">
+                        <div class="dropdown">
+                            <button class="dropdown_Button">All</button>
+                            <div class="search_dropdown_content">
+                                <a href="books.html">Books</a>
+                                <a href="#">Electronics</a>
+                                <a href="#">Fun and Sports</a>
+                                <a href="#">Home and Kitchen</a>
+                                <a href="#">Men's Fashion</a>
+                                <a href="#">Software</a>
+                                <a href="#">Toys</a>
+                                <a href="#">Womenn's Fashion</a>
+                            </div>
+                        </div>
+                        <input type="text" name="#" id="searchTerm" placeholder="Search...">
+                        <button type="submit" class="searchButton"><i class="fas fa-search"></i></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Login container -->
+            <div class="box-3">
+                <div class="nested_2">
+                    <div>
+                        <p style="color:white">Welcome to Arngen!</p>
+                    </div>
+                    <div class="box-2">
+                      <div class="wrap">
+                              <div class="dropdown">
+                                  <img alt="Qries" src="image/aadi/ah.png" width="50" height="50">
+                                  <div class="search_dropdown_content">
+                                      <a href="userProfile.html">My Profile</a>
+                                      <a href="myOrders.html">My Orders</a>
+                                      <a href="index.html">LogOut</a>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+                    <div class="box box1">
+                        <a href="Cart.html" class="cart_button"><i class="fas fa-cart-arrow-down fa-2x"></i></a>
+                    </div>
+                    <div class="box box1">
+                        <a href="#" class="cart_button"><i class="fas fa-bell fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+	<br>
+<!-- End header -->
+
+<!-- Purchasing page -->
+
+<h1>Product Purchasing</h1><br>
+<div class="card-1"> 
+
+<table>
+   <tr>
+     <th width="30%" id="thfont">Product</th>
+     <th width="30%" id="thfont">Ship to</th>
+     <th width="30%" id="thfont">Pay With</th>
+   </tr>
+   <tr>
+      <th> <br><input type="checkbox" id="Clothes" name="Clothes" value="Bike" width="">
+           <label for="Clothes1"> Select all items</label><br><br><br>
+           <input type="checkbox" id="Clothes-1" name="Clothes" value="Bike">
+           <img src="image/cl14.jpg" alt="clothes" width="50" height="300"><br><br><br>
+           <input type="checkbox" id="Clothes-1" name="Clothes" value="Bike">
+           <img src="image/t2.webp" alt="clothes" width="50" height="300" ><br><br><br><br><br>
+           <button class="btn btn-primary text-dark" id="pbtn">CONFIRM</button><br><br>
+       </th>
+       <th><br><form name="PForm" onsubmit="return formValidationA()" method="post">
+       <input type="checkbox" id="Clothes1" name="Clothes1" value="Bike2">
+           <label for="Clothes1"> Primary Address</label><br>
+           <textarea id="PAddress" name="PAddress" rows="2" cols="27" value="Write" ></textarea><br><br><br><br>
+           <input type="checkbox" id="Clothes1" name="Clothes1" value="Bike2">
+           <label for="Clothes1"> Secondary Address</label><br>
+           <textarea id="SAddress" name="SAddress" rows="2" cols="27" value="Write" ></textarea><br><br><br><br><br>
+           <button class="btn btn-primary text-dark" id="pbtn">CONFIRM</button><br><br>
+           </form>
+       </th>
+       <th><br><form name="SForm" onsubmit="return formValidationB()" method="post">
+           <input type="checkbox" id="Clothes1" name="Clothes1" value="Bike2">
+           <label for="Clothes1"> Creadit/Debit Card</label><br>
+           <textarea id="Card" name="Card" rows="2" cols="27" value="Write" ></textarea><br>
+           <button class="btn btn-primary text-dark" id="pbtn">ADD NEW</button><br><br>
+           </form>
+           
+           <input type="checkbox" id="Clothes" name="Clothes" value="Bike">
+           <label for="Clothes1"> Other Options</label><br><br>
+           <input type="checkbox" id="Clothes" name="Clothes" value="Bike">
+           <label for="Clothes1"> PayPal</label><br><br>
+           <textarea id="PAddress" name="PAddress" rows="2" cols="27" value="Write" ></textarea><br><br>
+           <button class="btn btn-primary text-dark" id="pbtn">CONFIRM</button><br><br>
+       </th>
+     </tr>
+
+ </table>
+ <br><br><br><br>
+</div>  
+<!-- Purchasing page end	 -->
+
+<!-- Footer -->
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+				<h3>ARNGREN<span>Online Shopping</span></h3>
+
+				<p class="footer-links">
+					<a href="index2.html" class="link-1">Home</a>
+					<a href="aboutUs.html">About Us</a>
+					<a href="contactUs.html">Contact Us</a>
+				</p>
+
+				<p class="footer-company-name">arngren©1983</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Arngren Sky Commuter AS,</span>0378 Oslo,<br></span>Norway,</span>Sondreveien 3K,</p>
+				</div>
+
+				<br>
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+ 47-22149166<br>+ 47-92060873</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">frithjof@arngren.net</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About our company</span>
+					Arngren Electronics is a company that sells electronics, gadgets and post office mail items.The company was started in 1983 by Frithjof Arngren.
+					In 1994 they started with mail order sales, and were a pioneer in the field.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+    <!-- End footer -->
+	
+
+    <!-- Login and Register -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel" class="text-center" style="text-align: center;">Log In
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <br>
+                <div>
+                    <img src="image/imageS/login.png" class="mx-auto d-block" alt=""
+                        style="width: 100px; height :100px;">
+                </div>
+
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email" class="col-form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email here" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="col-form-label">Password</label>
+                            <input type="password" class="form-control" id="password"
+                                placeholder="Enter your password here">
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" name="remember"> Remember me</label>
+                        </div>
+                        <div class="text-center">
+                            <a href="resetpassword.html">Forgot password?</a>
+                            <br>
+                            <a href="#registerModal">Create an account?</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registerModalLabel" class="text-center">Register</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div>
+                    <!-- <img src="register.png" class="mx-auto d-block" alt="" style="width: 50px; height :50px;"> -->
+                </div>
+
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name" class="col-form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name here">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email here">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="col-form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone_number"
+                                placeholder="Enter your Phone Number here">
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="col-form-label">Password</label>
+                            <input type="password" class="form-control" id="password"
+                                placeholder="Enter your password here">
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="col-form-label"> Confirm Password</label>
+                            <input type="password" class="form-control" id="confirmPassword"
+                                placeholder="Confirm your password here">
+                        </div>
+
+                        <div class="text-center">
+                            <a href="#loginModal">Already have an account?</a>
+
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Login and Register -->
+
+    <!-- JQuery Google CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Owl carousel js -->
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- Other js -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+	
+	<script src="js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.jssor_1_slider_init = function() {
+
+            var jssor_1_SlideoTransitions = [
+              [{b:500,d:1000,x:0,e:{x:6}}],
+              [{b:-1,d:1,x:100,p:{x:{d:1,dO:9}}},{b:0,d:2000,x:0,e:{x:6},p:{x:{dl:0.1}}}],
+              [{b:-1,d:1,x:200,p:{x:{d:1,dO:9}}},{b:0,d:2000,x:0,e:{x:6},p:{x:{dl:0.1}}}],
+              [{b:-1,d:1,rX:20,rY:90},{b:0,d:4000,rX:0,e:{rX:1}}],
+              [{b:-1,d:1,rY:-20},{b:0,d:4000,rY:-90,e:{rY:7}}],
+              [{b:-1,d:1,sX:2,sY:2},{b:1000,d:3000,sX:1,sY:1,e:{sX:1,sY:1}}],
+              [{b:-1,d:1,sX:2,sY:2},{b:1000,d:5000,sX:1,sY:1,e:{sX:3,sY:3}}],
+              [{b:-1,d:1,tZ:300},{b:0,d:2000,o:1},{b:3500,d:3500,tZ:0,e:{tZ:1}}],
+              [{b:-1,d:1,x:20,p:{x:{o:33,r:0.5}}},{b:0,d:1000,x:0,o:0.5,e:{x:3,o:1},p:{x:{dl:0.05,o:33},o:{dl:0.02,o:68,rd:2}}},{b:1000,d:1000,o:1,e:{o:1},p:{o:{dl:0.05,o:68,rd:2}}}],
+              [{b:-1,d:1,da:[0,700]},{b:0,d:600,da:[700,700],e:{da:1}}],
+              [{b:600,d:1000,o:0.4}],
+              [{b:-1,d:1,da:[0,400]},{b:200,d:600,da:[400,400],e:{da:1}}],
+              [{b:800,d:1000,o:0.4}],
+              [{b:-1,d:1,sX:1.1,sY:1.1},{b:0,d:1600,o:1},{b:1600,d:5000,sX:0.9,sY:0.9,e:{sX:1,sY:1}}],
+              [{b:0,d:1000,o:1,p:{o:{o:4}}}],
+              [{b:1000,d:1000,o:1,p:{o:{o:4}}}]
+            ];
+			
+			var jssor_1_options = {
+              $AutoPlay: 1,
+              $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlideo$,
+                $Transitions: jssor_1_SlideoTransitions
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$,
+                $SpacingX: 16,
+                $SpacingY: 16
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+			
+			var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 3000);
+                }
+            }
+			
+			$Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+        };
+    </script>
+	
+	<script type="text/javascript">jssor_1_slider_init();
+    </script>
+
+	<link href="//fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin-ext,cyrillic-ext,vietnamese,latin,cyrillic" rel="stylesheet" type="text/css" />
+    <link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,regular,italic,700,700italic&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic" rel="stylesheet" type="text/css" />
+
+</body>
+
+</html>

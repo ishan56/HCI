@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<link rel="stylesheet" href="css/styleFooter.css" />
+	<link rel="stylesheet" href="css/order.css" />
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/af562a2a63.js" crossorigin="anonymous"></script>
+	
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Title -->
+    <title>arngren.net: Online Shopping for Books, Electronics, Fashion & more</title>
+
+    <!-- Boostrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Fonts Open Sans & Raleway-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+
+    <!-- Fontawsome -->
+    <script src="https://kit.fontawesome.com/9aa55b9b3f.js"></script>
+
+    <!-- Owl carousel css -->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Preloader-->
+    <div id="preloader">
+        <div id="status">
+            &nbsp;
+        </div>
+    </div>
+    <!-- End preloader -->
+
+    <!-- Header -->
+    <header>
+        <div class="container-1">
+
+            <!-- Logo Container-->
+            <div class="box-1">
+                <div class="logo">
+                    <a href="index2.html"><img src="image/logo3.png" alt=""></a>
+                </div>
+            </div>
+            <!-- Search bar container -->
+            <div class="box-2">
+                <div class="wrap">
+                    <div class="search_">
+                        <div class="dropdown">
+                            <button class="dropdown_Button">All</button>
+                            <div class="search_dropdown_content">
+                                <a href="books.html">Books</a>
+                                <a href="#">Electronics</a>
+                                <a href="#">Fun and Sports</a>
+                                <a href="#">Home and Kitchen</a>
+                                <a href="#">Men's Fashion</a>
+                                <a href="#">Software</a>
+                                <a href="#">Toys</a>
+                                <a href="#">Womenn's Fashion</a>
+                            </div>
+                        </div>
+                        <input type="text" name="#" id="searchTerm" placeholder="Search...">
+                        <button type="submit" class="searchButton"><i class="fas fa-search"></i></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Login container -->
+            <div class="box-3">
+                <div class="nested_2">
+                    <div>
+                        <p style="color:white">Welcome to Arngen!</p>
+                    </div>
+                    <div class="box-2">
+                      <div class="wrap">
+                              <div class="dropdown">
+                                  <img alt="Qries" src="image/aadi/ah.png" width="50" height="50">
+                                  <div class="search_dropdown_content">
+                                      <a href="userProfile.html">My Profile</a>
+                                      <a href="myOrders.html">My Orders</a>
+                                      <a href="index.html">LogOut</a>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+                    <div class="box box1">
+                        <a href="Cart.html" class="cart_button"><i class="fas fa-cart-arrow-down fa-2x"></i></a>
+                    </div>
+                    <div class="box box1">
+                        <a href="#" class="cart_button"><i class="fas fa-bell fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+
+	<!--my order page-->
+	
+	<ul class="breadcrumb">
+	  <li><a href="index2.html">Home ></a></li>
+	  <li><a href="userProfile.html">UserProfile ></a></li>
+	  <li>My Orders</li>
+	</ul>
+	
+	<div class="imgcontainer">
+  	<h2 style="text-align:center; font-size:40px;"><strong>My Orders</strong></h2>
+  </div>
+
+  <div class="container">
+  <div class="row">
+    <div class="col-12">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Product</th>
+            <th scope="col">Product Action</th>
+            <th scope="col">Order Status</th>
+            <th scope="col">Order Action</th>
+          </tr>
+        </thead>
+        <tbody>
+			<div class="order-colunm">
+				<td style="background-color:#95afc0">Order ID:811767400589<br>Order time: 10:31 Sep.06 2020</td>
+				<td style="background-color:#95afc0">Store Name: My colours factory store</td>
+				<td style="background-color:#95afc0"></td>
+				<td style="background-color:#95afc0">Order Amount:$150<br>Shipping Free</td>
+			</div>
+        <tr>
+        <td>
+			<div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck1" checked>
+                <label class="custom-control-label" for="customCheck1"><img src="image/imgVi/one.jpg" alt="" border=3 height=100 width=100></img></label>
+            </div>
+            
+            <td>Confirmation Received</td>
+            <td>Finished</td>
+            <td><button class="rightBtn" onclick="window.location.href='OrderTracking.html'">Track Order</button>
+			<button class="rightBtn" onclick="window.location.href='Cart.html'">Add to Cart</button>
+			<img src="image/imgVi/dele.png" type="button" href="#" data-href="delete.php?id=23" data-toggle="modal" data-target="#confirm-delete"></img>
+			<div class="modal fade" id="confirm-delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body">
+							<p>Are you sure you want to delete your order</p>
+						</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+						<a class="btn btn-danger btn-ok" data-dismiss="modal">Delete</a>
+					</div>
+					</div>
+				</div>
+			</div>
+			</td>
+          </tr>
+		  <div class="order-colunm">
+				<td style="background-color:#95afc0">Order ID:8015644865288<br>Order time: 09:30 Aug.18 2020</td>
+				<td style="background-color:#95afc0">Store Name: Struck digital store</td>
+				<td style="background-color:#95afc0"></td>
+				<td style="background-color:#95afc0">Order Amount:$500<br>Shipping Amount:$200</td>
+		  </div>
+          <tr>
+            <td>
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck2">
+                  <label class="custom-control-label" for="customCheck2"><img src="image/imgVi/two.jpg" alt="" border=3 height=100 width=100></img></label>
+              </div>
+            </td>
+            <td>Refund Progress</td>
+            <td>Dispute Finished<br>Your refund progress</td>
+            <td><button class="rightBtn" onclick="window.location.href='OrderTracking.html'">Track Order</button>
+			<button class="rightBtn" onclick="window.location.href='Cart.html'">Add to Cart</button>
+			<img src="image/imgVi/dele.png" type="button" href="#" data-href="delete.php?id=23" data-toggle="modal" data-target="#confirm-delete"></img>
+			<div class="modal fade" id="confirm-delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body">
+							<p>Are you sure you want to delete your order</p>
+						</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+						<a class="btn btn-danger btn-ok" data-dismiss="modal">Delete</a>
+					</div>
+					</div>
+				</div>
+			</div>
+			</td>
+          </tr>
+		  <div class="order-colunm">
+				<td style="background-color:#95afc0">Order ID:852186528456<br>Order time: 02:10 Jun.08 2020</td>
+				<td style="background-color:#95afc0">Store Name: Boorui official store</td>
+				<td style="background-color:#95afc0"></td>
+				<td style="background-color:#95afc0">Order Amount:$50<br>Shipping Amount:$20</td>
+			</div>
+          <tr>
+            <td>
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck3">
+                  <label class="custom-control-label" for="customCheck3"><img src="image/imgVi/three.jpg" alt="" border=3 height=100 width=100></img></label>
+              </div>
+            </td>
+            <td>Confirmation Received</td>
+            <td>Confirm Payment</td>
+            <td><button class="rightBtn" onclick="window.location.href='OrderTracking.html'">Track Order</button>
+			<button class="rightBtn" onclick="window.location.href='Cart.html'">Add to Cart</button>
+			<img src="image/imgVi/dele.png" type="button" href="#" data-href="delete.php?id=23" data-toggle="modal" data-target="#confirm-delete"></img>
+			<div class="modal fade" id="confirm-delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body">
+							<p>Are you sure you want to delete your order</p>
+						</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+						<a class="btn btn-danger btn-ok" data-dismiss="modal">Delete</a>
+					</div>
+					</div>
+				</div>
+			</div>
+			</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!--End my order page-->
+
+    <!-- Footer -->
+    <footer class="footer-distributed">
+
+			<div class="footer-left">
+				<h3>ARNGREN<span>Online Shopping</span></h3>
+
+				<p class="footer-links">
+					<a href="index2.html" class="link-1">Home</a>									
+					<a href="aboutUs.html">About Us</a>
+					<a href="contactUs.html">Contact Us</a>							
+				</p>
+				<p class="footer-company-name">arngren©1983</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Arngren Sky Commuter AS,</span>0378 Oslo,<br></span>Norway,</span>Sondreveien 3K,</p>
+				</div>
+				<br>
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+ 47-22149166<br>+ 47-92060873</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">frithjof@arngren.net</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About our company</span>
+					Arngren Electronics is a company that sells electronics, gadgets and post office mail items.The company was started in 1983 by Frithjof Arngren.
+					In 1994 they started with mail order sales, and were a pioneer in the field.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+    <!-- End footer -->
+
+    <!-- Login and Register -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel" class="text-center">Log In
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <br>
+                <div>
+                    <img src="image/imageS/login.png" class="mx-auto d-block" alt=""
+                        style="width: 100px; height :100px;">
+                </div>
+
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email" class="col-form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email here" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="col-form-label">Password</label>
+                            <input type="password" class="form-control" id="password"
+                                placeholder="Enter your password here">
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" name="remember"> Remember me</label>
+                        </div>
+                        <div class="text-center">
+                            <a href="resetpassword.html">Forgot password?</a>
+                            <br>
+                            <a href="#registerModal">Create an account?</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registerModalLabel" class="text-center">Register</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div>
+                    <!-- <img src="register.png" class="mx-auto d-block" alt="" style="width: 50px; height :50px;"> -->
+                </div>
+
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name" class="col-form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name here">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email here">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="col-form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone_number"
+                                placeholder="Enter your Phone Number here">
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="col-form-label">Password</label>
+                            <input type="password" class="form-control" id="password"
+                                placeholder="Enter your password here">
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="col-form-label"> Confirm Password</label>
+                            <input type="password" class="form-control" id="confirmPassword"
+                                placeholder="Confirm your password here">
+                        </div>
+
+                        <div class="text-center">
+                            <a href="#loginModal">Already have an account?</a>
+
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Login and Register -->
+
+    <!-- JQuery Google CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Owl carousel js -->
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- Other js -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+	<script>
+$('#confirm-delete').on('show.bs.modal', function(e) {
+    $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+});
+</script>
+	<script>
+$("a.removeRecord").live("click",function(event){
+   event.stopPropagation();
+   if(confirm("Do you want to delete?")) {
+    this.click;
+       alert("Ok");
+   }
+   else
+   {
+       alert("Cancel");
+   }       
+   event.preventDefault();
+
+});
+</script>
+
+</body>
+
+</html>
